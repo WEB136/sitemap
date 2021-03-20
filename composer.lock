@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "40b9f493df3c8b69c2effab1837afa8a",
+    "packages": [
+        {
+            "name": "web136/one_process",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/web136/one_process.git",
+                "reference": "2d0bf13e00f21f57352af8a74f5e6f035f29598b"
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "web136\\one_process\\": "src/"
+                }
+            },
+            "license": [
+                "Unlicense"
+            ],
+            "description": "Launch script in one instance (cli, cron, etc.)",
+            "keywords": [
+                "CLI"
+            ],
+            "time": "2021-03-20T17:59:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

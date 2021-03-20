@@ -1,0 +1,21 @@
+{
+    "name": "web136/sitemap",
+    "description": "PHP sitemap generator",
+    "license": "Unlicense",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "web136/one_process": "master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/web136/one_process.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "web136\\sitemap\\": "src/"
+        }
+    }
+}
